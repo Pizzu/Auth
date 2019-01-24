@@ -77,27 +77,3 @@ Add JWT-based authentication to a Node/Express/Mongo app.
 		* [x] Get all notes in DB with logged in users user_id
 * [x] List all notes on client
 	* [x] Render description with Markdown
-
-## STRETCH
-
-* [ ] Store date of note in DB
-	* [ ] Sort notes by date created.
-* [ ] View user profile
-* [ ] Users can mark notes as public
-	* [ ] Notes show up on profile
-
-## Admin Page:
-* [ ] Admin page that lists all users
-	* [ ] admin table with user_id
-	* [ ] de-activate users
-* [ ] Admin can see any page on site
-* [ ] Rate limiting
-  * [ ] Prevent brute force logins
-	* [ ] Lock out account after too many login attempts
-* [ ] Password strength meter!
-* [ ] reCaptcha for signup/login
-* [ ] Password reset with email
-* [ ] Forgot password
-	* [ ] Reset with email
-	* [ ] Reset by answering security questions
-* [ ] Testing...
